@@ -1,0 +1,51 @@
+version: '2.0'
+services:
+  server:
+    build:
+      context: ./
+      dockerfile: ./python-dockerfile
+    container_name: server_container
+    ports:
+     - "8888:8080"
+    links:
+      - mongodb:mongodb
+    depends_on:
+     - mongodb
+  #######################################################
+  # Uncomment the following to have docker syslog enabled
+  #   - rsyslog
+  #  logging:
+  #    driver: syslog
+  #    options:
+  #      syslog-address: "udp://127.0.0.1:5514"
+  #      syslog-facility: daemon
+  #      tag: smqserver
+    volumes:
+     - ../server:/var/www/app
+     - ../.config:/var/www/.config
+  mongodb:
+    build:
+      context: ../
+      dockerfile: ./docker/mongodb-dockerfile
+    container_name: mongo_container
+  #######################################################
+  # Uncomment the following to have docker syslog enabled
+  #  depends_on:
+  #   - rsyslog
+  #  logging:
+  #    driver: syslog
+  #    options:
+  #      syslog-address: "udp://127.0.0.1:5514"
+  #      syslog-facility: daemon
+  #      tag: smqmongodbs
+    volumes:
+     - /data/db
+  #######################################################
+  # Uncomment the following to have docker syslog enabled
+  #rsyslog:
+  #  image: voxxit/rsyslog
+  #  container_name: smqrsyslog
+  #  ports:
+  #    - "5514:514/udp"
+  #  volumes:
+  #    - /tmp:/var/log/syslog

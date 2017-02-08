@@ -1,0 +1,15 @@
+FROM mongo:latest
+
+#Installing Node
+RUN apt-get update && \
+    apt-get install -y curl && \
+    curl -sL https://deb.nodesource.com/setup_6.x | bash - && \
+    apt-get install -y nodejs
+
+#Setting Up Mongo
+WORKDIR /var/www/app
+COPY ./.config/mongo /var/www/.config/mongo
+RUN if [ -e /var/www/.config/mongo/mongod.conf ] ; then cp /var/www/.config/mongo/mongod.conf /etc/mongod.conf ; fi
+#RUN mongod --port 27017 & node mongo-setup.js && mongod --shutdown
+
+CMD ["mongod", "--auth", "--port", "27017"]
