@@ -11,7 +11,7 @@
 "left":
 {
   "username": "XXXXXXXXX",
-  "password": "COMP498N",
+  "password": "XXXXXXXXX",
   "subreddits":[
     "sandersforpresident",
     "political_revolution",
@@ -24,7 +24,7 @@
 "apol":
 {
   "username": "XXXXXXXXX",
-  "password": "COMP498N",
+  "password": "XXXXXXXXX",
   "subreddits":[
     "politics",
     "news",
@@ -39,7 +39,7 @@
 "right":
 {
   "username": "XXXXXXXXX",
-  "password": "COMP498N",
+  "password": "XXXXXXXXX",
   "subreddits":[
     "the_donald",
     "conservative",
