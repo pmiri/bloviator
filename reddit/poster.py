@@ -1,11 +1,9 @@
 import praw
 from praw_object_data import retry_if_broken_connection
-from enum import Enum
+import json
 
 client_id = "G_rle_KDBCc7kw"
 secret="QjZR808fes7P8AFzUn8mb7WYC0w"
-username='bloviator-bot'
-password='COMP498N'
 user_agent = 'reddit posting for bloviator, using praw tutorial'
 
 #our subreddit
@@ -13,12 +11,17 @@ test_subreddit = 'bloviationzone'
 
 post_list_file = 'post_list.txt'
 
+def loadbot( str ):
+    json_data=open(file_directory).read()
+    data = json.loads(json_data)[bottype]
+    return data
+
 @retry_if_broken_connection
-def poster():
+def poster( bot ):
     r = praw.Reddit(client_id=client_id,
                     client_secret=secret,
-                    username=username,
-                    password=password,
+                    username=bot["username"],
+                    password=bot["password"],
                     user_agent=user_agent)
 
     return r
@@ -28,14 +31,15 @@ def get_threads_replied_to():
     return threadfile.readlines()
 
 def main():
-    reddit = poster()
+    bot = loadbot("test")
+    reddit = poster(bot)
 
     posts = get_threads_replied_to()
 
     #NOTE: you can append subreddits by +'ing them together. This will be useful when interacting with many political subs
-    subreddit = reddit.subreddit(test_subreddit)
+    subreddit = reddit.subreddit('+'.join(bot["subreddits"]))
     for submission in subreddit.stream.submissions():
-        print('post found')
+        print('post(s) found')
         #check to see if the bot hasn't already replied
         if submission.id not in posts:
             print('replying in thread')
