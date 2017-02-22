@@ -6,14 +6,14 @@ client_id = "G_rle_KDBCc7kw"
 secret="QjZR808fes7P8AFzUn8mb7WYC0w"
 user_agent = 'reddit posting for bloviator, using praw tutorial'
 
-#our subreddit
-test_subreddit = 'bloviationzone'
+#our json file
+json_bot_file = "bots.json"
 
 post_list_file = 'post_list.txt'
 
 def loadbot( str ):
-    json_data=open(file_directory).read()
-    data = json.loads(json_data)[bottype]
+    json_data=open(json_bot_file).read()
+    data = json.loads(json_data)[str]
     return data
 
 @retry_if_broken_connection
@@ -26,6 +26,7 @@ def poster( bot ):
 
     return r
 
+#TODO: change so that it queries and populates bot specific file, instead of this default
 def get_threads_replied_to():
     threadfile = open(post_list_file, 'r')
     return threadfile.readlines()
