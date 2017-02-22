@@ -25,9 +25,9 @@ def main():
     #NOTE: you can append subreddits by +'ing them together. This will be useful when interacting with many political subs
     subreddit = reddit.subreddit(test_subreddit)
     for submission in subreddit.stream.submissions():
+        print('post found')
         #if submission contains what we want, reply.
         submission.reply('YO THIS WAS AUTOMATED. CAN U BEELEEVE THAT?')
-
 
 if __name__ == '__main__':
     main()
