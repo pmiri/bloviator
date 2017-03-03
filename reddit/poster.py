@@ -1,3 +1,5 @@
+import sys, getopt
+
 import praw
 from praw_object_data import retry_if_broken_connection
 import json
@@ -27,15 +29,18 @@ def poster( bot ):
     return r
 
 #TODO: change so that it queries and populates bot specific file, instead of this default
-def get_threads_replied_to():
-    threadfile = open(post_list_file, 'r')
+def get_threads_replied_to(bot_type):
+    threadfile = open(bot_type + "_" + post_list_file, 'r')
     return threadfile.readlines()
 
-def main():
-    bot = loadbot("test")
+def main(argv):
+
+    bot_type = argv[1]
+
+    bot = loadbot(bot_type)
     reddit = poster(bot)
 
-    posts = get_threads_replied_to()
+    posts = get_threads_replied_to(bot_type)
 
     #NOTE: you can append subreddits by +'ing them together. This will be useful when interacting with many political subs
     subreddit = reddit.subreddit('+'.join(bot["subreddits"]))
@@ -47,9 +52,9 @@ def main():
             #if submission contains what we want, reply.
             submission.reply('YO THIS WAS AUTOMATED. CAN U BEELEEVE THAT?')
 
-            threads = open(post_list_file, 'a')
+            threads = open(bot_type + '_' + post_list_file, 'a')
             threads.write(submission.id)
 
 
 if __name__ == '__main__':
-    main()
+    main(sys.argv)
