@@ -10,26 +10,27 @@
 
 "left":
 {
-  "username": "XXXXXXXXX",
-  "password": "XXXXXXXXX",
+  "username": "loveandlightning",
+  "password": "COMP498N FIVE",
   "subreddits":[
     "sandersforpresident",
     "political_revolution",
     "progressive",
     "socialism",
-    "anarchism"
+    "anarchism",
+    "politics",
+    "democrats"
   ]
 },
 
 "apol":
 {
-  "username": "XXXXXXXXX",
-  "password": "XXXXXXXXX",
+  "username": "PM_ME_YOUR_NEUROSIS",
+  "password": "COMP498N FOUR",
   "subreddits":[
-    "politics",
     "news",
     "worldnews",
-    "nottheonion",
+    "aww",
     "trees",
     "food",
     "showerthoughts"
@@ -38,8 +39,8 @@
 
 "right":
 {
-  "username": "XXXXXXXXX",
-  "password": "XXXXXXXXX",
+  "username": "stopdropandrocknroll",
+  "password": "COMP498N TWO",
   "subreddits":[
     "the_donald",
     "conservative",
