@@ -5,7 +5,7 @@ from nltk.tokenize import sent_tokenize
 import pickle
 
 BLOVIATION_MAX = 140
-MODEL_PATH = "/home/bloviator/models/"
+MODEL_PATH = "/home/matthew/temp/models/"
 MODEL_EXT = ".10mb.padded.pickle"
 MODEL_ORDER = 12
 SUBREDDITS = [
@@ -66,7 +66,6 @@ def generate_text(lm, order, nletters=1000, seed=None):
     while len(out) < nletters:
         c = generate_letter(lm, history, order)
         history = history[-order:] + c
-        print(c)
         out.append(c)
     return "".join(out)
 
@@ -85,8 +84,14 @@ def bloviate(subreddit, seed=None):
     bloviation = ""
     while bloviation == "":
         bloviations = generate_text(lm, MODEL_ORDER)
+        # Strip away padding characters
+        bloviations = "".join(c for c in bloviations if c!="~");
         sentences = sent_tokenize(bloviations)
-        for sentence in shuffle(sentences):
+        # Shuffle the sentences, for fun and to increase randomness
+        shuffle(sentences)
+        for sentence in sentences:
             if len(sentence) < 140 and len(bloviation) < 140:
-                bloviation += sentence
+                print(sentence)
+                print(bloviation)
+                bloviation += " " + sentence
     return bloviation
