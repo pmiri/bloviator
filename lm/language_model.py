@@ -1,8 +1,36 @@
 from collections import *
-from random import random
+from random import random, shuffle
 from tqdm import tqdm
+from nltk.tokenize import sent_tokenize
 import pickle
 
+BLOVIATION_MAX = 140
+MODEL_PATH = "/home/bloviator/models/"
+MODEL_EXT = ".10mb.padded.pickle"
+MODEL_ORDER = 12
+SUBREDDITS = [
+    'anarchism',
+    'anarcho_capitalism',
+    'aww',
+    'conservative',
+    'conspiracy',
+    'democrats',
+    'food',
+    'libertarian',
+    'news',
+    'political_revolution',
+    'politics',
+    'progressive',
+    'republican',
+    'sandersforpresident',
+    'showerthoughts',
+    'socialism',
+    'the_donald',
+    'trees',
+    'worldnews',
+]
+
+# Trains a Markov-chain-based language model on a file fname.
 def train_char_lm(fname, order=10):
     data = open(fname, 'r').read()
     lm = defaultdict(Counter)
@@ -17,6 +45,7 @@ def train_char_lm(fname, order=10):
     outlm = {hist:normalize(chars) for hist, chars in lm.items()}
     return outlm
 
+# Generates a single letter from a given language model and history
 def generate_letter(lm, history, order):
         history = history[-order:]
         dist = lm[history]
@@ -25,11 +54,39 @@ def generate_letter(lm, history, order):
             x = x - v
             if x <= 0: return c
 
-def generate_text(lm, order, nletters=1000):
+# Generates nletters characters of random text given a model and model order.
+def generate_text(lm, order, nletters=1000, seed=None):
     history = "~" * order
+    if seed is not None:
+        history = ((order - len(seed)) * "~") + seed;
+        if history not in lm:
+            history = "~" * order
     out = []
-    for i in range(nletters):
+    print("Generating text:\n")
+    while len(out) < nletters:
         c = generate_letter(lm, history, order)
         history = history[-order:] + c
+        print(c)
         out.append(c)
     return "".join(out)
+
+# Bloviates a single comment. A comment will be composed of only complete
+# sentences and a maximum of BLOVIATION_MAX characters in total (though it can
+# be of any length under 140 and over 0 characters).
+#
+# Throws ValueError when a subreddit not in the above SUBREDDITS list is passed
+# as a parameter.
+def bloviate(subreddit, seed=None):
+    if subreddit not in SUBREDDITS:
+        raise ValueError('Subreddit not recognized')
+    file_path = MODEL_PATH + subreddit + MODEL_EXT
+    print("Loading model...")
+    lm = pickle.load(open(file_path, 'rb'))
+    bloviation = ""
+    while bloviation == "":
+        bloviations = generate_text(lm, MODEL_ORDER)
+        sentences = sent_tokenize(bloviations)
+        for sentence in shuffle(sentences):
+            if len(sentence) < 140 and len(bloviation) < 140:
+                bloviation += sentence
+    return bloviation
