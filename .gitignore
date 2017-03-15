@@ -1,3 +1,13 @@
+.bash_history
+.bash_logout
+.bashrc
+.cloud-locale-test.skip
+.profile
+.sudo_as_admin_successful
+.vim/
+.viminfo
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
