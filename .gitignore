@@ -6,7 +6,7 @@
 .sudo_as_admin_successful
 .vim/
 .viminfo
-
+models/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

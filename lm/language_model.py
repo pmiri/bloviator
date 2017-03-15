@@ -4,10 +4,10 @@ from tqdm import tqdm
 from nltk.tokenize import sent_tokenize
 import pickle
 
-BLOVIATION_MAX = 50 
-MODEL_PATH = "/home/matthew/models/"
-MODEL_EXT = ".10mb.padded.pickle"
-MODEL_ORDER = 12
+BLOVIATION_MAX = 50
+MODEL_PATH = "/home/bloviator/models/"
+MODEL_EXT = ".10mb.8.padded.pickle"
+MODEL_ORDER = 8
 SUBREDDITS = [
     'anarchism',
     'anarcho_capitalism',
@@ -62,8 +62,8 @@ def generate_text(lm, order, nletters=1000, seed=None):
         if history not in lm:
             history = "~" * order
     out = []
-    print("Generating text:\n")
-    while len(out) < nletters:
+    print("Generating text...")
+    for x in tqdm(range(0, nletters)):
         c = generate_letter(lm, history, order)
         history = history[-order:] + c
         out.append(c)
@@ -90,8 +90,7 @@ def bloviate(subreddit, seed=None):
         # Shuffle the sentences, for fun and to increase randomness
         shuffle(sentences)
         for sentence in sentences:
-            if len(sentence) < 140 and len(bloviation) < 140:
-                print(sentence)
-                print(bloviation)
+            if len(sentence) < BLOVIATION_MAX \
+                and len(bloviation) < BLOVIATION_MAX:
                 bloviation += " " + sentence
     return bloviation
