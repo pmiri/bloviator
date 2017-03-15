@@ -3,4 +3,4 @@ Reddit Bot using ML to participate in conversations. (Course project for COMP 49
 
 
 # Server IP
-45.55.197.192
+104.236.206.57
