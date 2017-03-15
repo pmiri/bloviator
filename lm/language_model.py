@@ -4,8 +4,8 @@ from tqdm import tqdm
 from nltk.tokenize import sent_tokenize
 import pickle
 
-BLOVIATION_MAX = 140
-MODEL_PATH = "/home/matthew/temp/models/"
+BLOVIATION_MAX = 50 
+MODEL_PATH = "/home/matthew/models/"
 MODEL_EXT = ".10mb.padded.pickle"
 MODEL_ORDER = 12
 SUBREDDITS = [
