@@ -38,23 +38,23 @@ def get_threads_replied_to(bot_type):
 
 def main():
     #loop
-    while(True)
+    while(True):
         #TODO: this is a temp replacement for testing
         bot_list = ["test"]
-        for(bot_type in bot_list)
+        for bot_type in bot_list:
             bot = loadbot(bot_type)
             reddit = poster(bot)
 
             #this may be irrelevant givent the nature of the submission stream
             #posts = get_threads_replied_to(bot_type)
-            for(sub in bot["subreddits"])
+            for sub in bot["subreddits"]:
                 #NOTE: you can append subreddits by +'ing them together. This will be useful when interacting with many political subs
                 subreddit = reddit.subreddit(sub)
                 t = time.time()
                 for submission in subreddit.stream.submissions():
                     print('post(s) found')
                     #check to see if the bot hasn't already replied
-                    if time.time() - t > 60*10 #TODO: figure out appropriate conditions to NOT post submission.id not in posts:
+                    if time.time() - t > 60*10: #TODO: figure out appropriate conditions to NOT post submission.id not in posts:
                         t = time.time()
                         print('replying in thread' + submission)
                         #if submission contains what we want, reply.
