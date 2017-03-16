@@ -1,5 +1,7 @@
 import sys, getopt
 
+import language_model as lm
+
 import time
 
 import praw
@@ -37,6 +39,8 @@ def get_threads_replied_to(bot_type):
     return threadfile.readlines()
 
 def main():
+    print("bloviating...")
+
     #loop
     while(True):
         #TODO: this is a temp replacement for testing
@@ -58,8 +62,9 @@ def main():
                         t = time.time()
                         print('replying in thread' + submission)
                         #if submission contains what we want, reply.
-                        #TODO: PLUG ML TRAINED ANSWER SCRIPT HERE
-                        submission.reply("REPLY")
+                       
+                        comment = lm.bloviate(sub)
+                        submission.reply(comment)
 
                         threads = open(bot_type + '_' + post_list_file, 'a+')
                         botlog = open(bot_type + '_comments', 'a+')
