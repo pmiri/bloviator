@@ -1,7 +1,7 @@
 from collections import *
 from random import random, shuffle
-from tqdm import tqdm
 from nltk.tokenize import sent_tokenize
+from sys import argv
 import pickle
 
 BLOVIATION_MAX = 50
@@ -36,7 +36,7 @@ def train_char_lm(fname, order=10):
     lm = defaultdict(Counter)
     pad = "~" * order
     data = pad + data
-    for i in tqdm(range(len(data)-order)):
+    for i in range(len(data)-order):
         history, char = data[i:i+order], data[i+order]
         lm[history][char]+=1
     def normalize(counter):
@@ -62,8 +62,8 @@ def generate_text(lm, order, nletters=1000, seed=None):
         if history not in lm:
             history = "~" * order
     out = []
-    print("Generating text...")
-    for x in tqdm(range(0, nletters)):
+    # print("Generating text...")
+    for x in range(0, nletters):
         c = generate_letter(lm, history, order)
         history = history[-order:] + c
         out.append(c)
@@ -79,7 +79,7 @@ def bloviate(subreddit, seed=None):
     if subreddit not in SUBREDDITS:
         raise ValueError('Subreddit not recognized')
     file_path = MODEL_PATH + subreddit + MODEL_EXT
-    print("Loading model...")
+    # print("Loading model...")
     lm = pickle.load(open(file_path, 'rb'))
     bloviation = ""
     while bloviation == "":
@@ -94,3 +94,10 @@ def bloviate(subreddit, seed=None):
                 and len(bloviation) < BLOVIATION_MAX:
                 bloviation += " " + sentence
     return bloviation
+
+def main():
+    bloviation = bloviate(argv[1]).strip()
+    print(bloviation)
+
+if __name__ == "__main__":
+    main()
