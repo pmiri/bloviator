@@ -3,6 +3,7 @@ import sys, getopt
 import language_model as lm
 
 import time
+import subprocess
 
 import praw
 from praw_object_data import retry_if_broken_connection
@@ -17,6 +18,8 @@ bot_list = ["left", "right", "apol"]
 json_bot_file = "bots.json"
 
 post_list_file = 'post_list.txt'
+
+log_file = 'log.txt'
 
 def loadbot( str ):
     json_data=open(json_bot_file).read()
@@ -40,14 +43,15 @@ def get_threads_replied_to(bot_type):
 
 def main():
     print("bloviating...")
+    log = open(log_file, 'a+')
 
     #loop
     while(True):
-        #TODO: this is a temp replacement for testing
-        bot_list = ["test"]
         for bot_type in bot_list:
             bot = loadbot(bot_type)
             reddit = poster(bot)
+
+            log.write('using bot: ' + bot_type + '\n')
 
             #this may be irrelevant givent the nature of the submission stream
             #posts = get_threads_replied_to(bot_type)
@@ -58,13 +62,16 @@ def main():
                 for submission in subreddit.stream.submissions():
                     print('post(s) found')
                     #check to see if the bot hasn't already replied
+                    print(time.time() - t)
                     if time.time() - t > 60*10: #TODO: figure out appropriate conditions to NOT post submission.id not in posts:
                         t = time.time()
                         print('replying in thread' + submission)
+
                         #if submission contains what we want, reply.
-                       
-                        comment = lm.bloviate(sub)
+
+                        comment = subprocess.check_output(['python3', '/home/bloviator/lm/language_model.py', sub])
                         submission.reply(comment)
+                        log.write('r/' + sub + ':\"' + comment + '\"\n')
 
                         threads = open(bot_type + '_' + post_list_file, 'a+')
                         botlog = open(bot_type + '_comments', 'a+')
