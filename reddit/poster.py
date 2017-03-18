@@ -41,10 +41,9 @@ def get_threads_replied_to(bot_type):
     threadfile = open(bot_type + "_" + post_list_file, 'r')
     return threadfile.readlines()
 
-def main():
-    print("bloviating...")
+def boot_loop():
     log = open(log_file, 'a+')
-
+    
     #loop
     while(True):
         for bot_type in bot_list:
@@ -78,6 +77,11 @@ def main():
                         threads.write(submission.id)
                         botlog.write(submission.id + ': ' + 'TODO: comment go here')
 
+
+def main():
+    while(True):
+        print("bloviating...")
+        boot_loop()
 
 if __name__ == '__main__':
     main()
