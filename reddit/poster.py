@@ -1,4 +1,5 @@
 import sys, getopt
+import logging
 
 import language_model as lm
 
@@ -19,7 +20,9 @@ json_bot_file = "bots.json"
 
 post_list_file = 'post_list.txt'
 
+# Logging configuration
 log_file = 'log.txt'
+logging.basicConfig(filename=log_file, level=logging.DEBUG)
 
 def loadbot( str ):
     json_data=open(json_bot_file).read()
@@ -42,15 +45,14 @@ def get_threads_replied_to(bot_type):
     return threadfile.readlines()
 
 def boot_loop():
-    log = open(log_file, 'a+')
-    
+    logger = logging.getLogger('bot_log')
     #loop
     while(True):
         for bot_type in bot_list:
             bot = loadbot(bot_type)
             reddit = poster(bot)
 
-            log.write('using bot: ' + bot_type + '\n')
+            logger.info('using bot: ' + bot_type + '\n')
 
             #this may be irrelevant givent the nature of the submission stream
             #posts = get_threads_replied_to(bot_type)
@@ -70,12 +72,13 @@ def boot_loop():
 
                         comment = subprocess.check_output(['python3', '/home/bloviator/lm/language_model.py', sub])
                         submission.reply(comment)
-                        log.write('r/' + sub + ':\"' + comment + '\"\n')
+                        logger.info('r/' + sub + ':\"' + comment + '\"\n')
 
                         threads = open(bot_type + '_' + post_list_file, 'a+')
                         botlog = open(bot_type + '_comments', 'a+')
                         threads.write(submission.id)
                         botlog.write(submission.id + ': ' + 'TODO: comment go here')
+                        logger.info("SUBMISSION ID:" + submission.id)
 
 
 def main():
