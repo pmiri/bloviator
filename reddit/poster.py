@@ -41,7 +41,7 @@ def poster( bot ):
 
 #TODO: change so that it queries and populates bot specific file, instead of this default
 def get_threads_replied_to(bot_type):
-    threadfile = open(bot_type + "_" + post_list_file, 'r')
+    threadfile = open(bot_type + "_" + post_list_file, 'r+')
     return threadfile.readlines()
 
 def boot_loop():
@@ -58,18 +58,17 @@ def boot_loop():
             #posts = get_threads_replied_to(bot_type)
             for sub in bot["subreddits"]:
                 #NOTE: you can append subreddits by +'ing them together. This will be useful when interacting with many political subs
+                print('entering ' + sub + '...')
                 subreddit = reddit.subreddit(sub)
                 t = time.time()
-                for submission in subreddit.stream.submissions():
+                for submission in subreddit.stream.submissions.hot.comments(limit=25):
                     print('post(s) found')
                     #check to see if the bot hasn't already replied
-                    print(time.time() - t)
-                    if time.time() - t > 60*10: #TODO: figure out appropriate conditions to NOT post submission.id not in posts:
+                    if True #time.time() - t > 60*10: #TODO: figure out appropriate conditions to NOT post submission.id not in posts:
                         t = time.time()
                         print('replying in thread' + submission)
 
                         #if submission contains what we want, reply.
-
                         comment = subprocess.check_output(['python3', '/home/bloviator/lm/language_model.py', sub])
                         submission.reply(comment)
                         logger.info('r/' + sub + ':\"' + comment + '\"\n')
@@ -79,6 +78,11 @@ def boot_loop():
                         threads.write(submission.id)
                         botlog.write(submission.id + ': ' + 'TODO: comment go here')
                         logger.info("SUBMISSION ID:" + submission.id)
+                        break
+                        
+                    sleepytime = 60*10 - (time.time() - t)
+                    print('sleeping for %d', sleepytime)
+                    sleep(sleepytime)
 
 
 def main():
