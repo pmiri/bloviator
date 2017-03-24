@@ -14,7 +14,7 @@ client_id = "G_rle_KDBCc7kw"
 secret="QjZR808fes7P8AFzUn8mb7WYC0w"
 user_agent = 'reddit posting for bloviator, using praw tutorial'
 
-bot_list = ["left", "right", "apol"]
+bot_list = ["right", "left", "apol"]
 #our json file
 json_bot_file = "bots.json"
 
@@ -22,7 +22,7 @@ post_list_file = 'post_list.txt'
 
 # Logging configuration
 log_file = 'log.txt'
-logging.basicConfig(filename=log_file, level=logging.DEBUG)
+logging.basicConfig(filename=log_file, level=logging.INFO)
 
 def loadbot( str ):
     json_data=open(json_bot_file).read()
@@ -61,34 +61,42 @@ def boot_loop():
                 print('entering ' + sub + '...')
                 subreddit = reddit.subreddit(sub)
                 t = time.time()
-                for submission in subreddit.stream.submissions.hot.comments(limit=25):
+                for submission in subreddit.hot(limit=25):
                     print('post(s) found')
                     #check to see if the bot hasn't already replied
-                    if True #time.time() - t > 60*10: #TODO: figure out appropriate conditions to NOT post submission.id not in posts:
+                    try: #time.time() - t > 60*10: #TODO: figure out appropriate conditions to NOT post submission.id not in posts:
                         t = time.time()
-                        print('replying in thread' + submission)
+                        print('replying in thread ' + submission.shortlink)
 
                         #if submission contains what we want, reply.
                         comment = subprocess.check_output(['python3', '/home/bloviator/lm/language_model.py', sub])
-                        submission.reply(comment)
+                        comment.replace('\n', ' ')
+
+                        submission.comment_sort = 'hot'
+                        submission.comments[0].reply(comment)
                         logger.info('r/' + sub + ':\"' + comment + '\"\n')
 
                         threads = open(bot_type + '_' + post_list_file, 'a+')
                         botlog = open(bot_type + '_comments', 'a+')
                         threads.write(submission.id)
-                        botlog.write(submission.id + ': ' + 'TODO: comment go here')
-                        logger.info("SUBMISSION ID:" + submission.id)
-                        break
-                        
-                    sleepytime = 60*10 - (time.time() - t)
-                    print('sleeping for %d', sleepytime)
-                    sleep(sleepytime)
+                        botlog.write(submission.id + ': ' + comment)
+                        logger.info("SUBMISSION ID: " + submission.id)
+                    except:
+                        print "post error, skipping..."
+                    break
+
+                sleepytime = 60*10 - (time.time() - t)
+                print('sleeping for {0}').format(sleepytime)
+                time.sleep(sleepytime)
 
 
 def main():
     while(True):
-        print("bloviating...")
-        boot_loop()
+        try:
+            print("bloviating...")
+            boot_loop()
+        except:
+            print "Some kind of error: ", sys.exc_info()[0]
 
 if __name__ == '__main__':
     main()
