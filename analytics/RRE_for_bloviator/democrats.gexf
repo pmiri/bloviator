@@ -1,0 +1,1915 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.1" xmlns="http://www.gexf.net/1.1draft" xmlns:viz="http://www.gexf.net/1.1draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="seen" type="string" />
+    </attributes>
+    <nodes>
+      <node id="iloverainingday" label="iloverainingday">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="CaramelKitteh" label="CaramelKitteh">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="sleetx" label="sleetx">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="djoefish" label="djoefish">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="cookiemonster247" label="cookiemonster247">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="DronedAgain" label="DronedAgain">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="ThaBatesmotel" label="ThaBatesmotel">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="An_emperor_penguin" label="An_emperor_penguin">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="aspiringluddite" label="aspiringluddite">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="fukdatnoiz" label="fukdatnoiz">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="alansb1982" label="alansb1982">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="thegreattober" label="thegreattober">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="Raeldcr" label="Raeldcr">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="Caspian215" label="Caspian215">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="sketchy7" label="sketchy7">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="paularkay" label="paularkay">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="berryferry" label="berryferry">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="backpackwayne" label="backpackwayne">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="TheCSKlepto" label="TheCSKlepto">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="rAlexanderAcosta" label="rAlexanderAcosta">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="downvote_allmy_posts" label="downvote_allmy_posts">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="Sevcode" label="Sevcode">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="RemindMeBot" label="RemindMeBot">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="wookiecontrol" label="wookiecontrol">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="RobisaII" label="RobisaII">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="SocialBrushStroke" label="SocialBrushStroke">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="zatch17" label="zatch17">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="FishStix1" label="FishStix1">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="ThrowayForScience" label="ThrowayForScience">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="i_am_bartman" label="i_am_bartman">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="musclerunner" label="musclerunner">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="viagravagina" label="viagravagina">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="Creativation" label="Creativation">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="Czechmix" label="Czechmix">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="REXXT" label="REXXT">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="Testacules" label="Testacules">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="Dingus_McDoodle_Esq" label="Dingus_McDoodle_Esq">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="dammit_krieger" label="dammit_krieger">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="Omega_Minus" label="Omega_Minus">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="eternal_septuagint" label="eternal_septuagint">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="Rootsinsky" label="Rootsinsky">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="Catalyst8487" label="Catalyst8487">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="activatedalmondz" label="activatedalmondz">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="Kanye2020a" label="Kanye2020a">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="IntroSpeccy" label="IntroSpeccy">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="Flederman64" label="Flederman64">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="RamboGoesMeow" label="RamboGoesMeow">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="SnatchasaurusRex" label="SnatchasaurusRex">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="anotherblue" label="anotherblue">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="woodyww" label="woodyww">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="bandwag0n" label="bandwag0n">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="yesno242" label="yesno242">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="GreenBean81" label="GreenBean81">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="_LLAMA_KING" label="_LLAMA_KING">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="Searchlights" label="Searchlights">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="Peculiar_One" label="Peculiar_One">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="yosemite_lives" label="yosemite_lives">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="CleanBaldy" label="CleanBaldy">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="rhose32" label="rhose32">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="Hook3d" label="Hook3d">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="Fig1024" label="Fig1024">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="Augustus_Caesar1" label="Augustus_Caesar1">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="TyphoonOne" label="TyphoonOne">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="LGMenu" label="LGMenu">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="cleopad1" label="cleopad1">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="I_AM_A_SPORK" label="I_AM_A_SPORK">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="ImperatorBevo" label="ImperatorBevo">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="icallshenannigans" label="icallshenannigans">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="ldkronos" label="ldkronos">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="Irish_Fry" label="Irish_Fry">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="ayoungjacknicholson" label="ayoungjacknicholson">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="flxtr" label="flxtr">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="Millwalky" label="Millwalky">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="sam_the_butcher_95" label="sam_the_butcher_95">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="KennyFulgencio" label="KennyFulgencio">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="m-flo" label="m-flo">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="Old_Army90" label="Old_Army90">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="JeanValjean197o" label="JeanValjean197o">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="RellenD" label="RellenD">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="therecordcorrected" label="therecordcorrected">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="Exycc" label="Exycc">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="MisterDarcyType" label="MisterDarcyType">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="GoinFerARipEh" label="GoinFerARipEh">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="KrazyKukumber" label="KrazyKukumber">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="ThaddeusJP" label="ThaddeusJP">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="Mister_Jay_Peg" label="Mister_Jay_Peg">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="Militree" label="Militree">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="p-zilla" label="p-zilla">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="BourneAwayByWaves" label="BourneAwayByWaves">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="Accademiccanada" label="Accademiccanada">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="the1andonlyreal1" label="the1andonlyreal1">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="RTwhyNot" label="RTwhyNot">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="corin247" label="corin247">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="Anticipator1234" label="Anticipator1234">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="geodebug" label="geodebug">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="BURNTHROUGHACCOUNTS" label="BURNTHROUGHACCOUNTS">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="ramonycajones" label="ramonycajones">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="SlayerOfArgus" label="SlayerOfArgus">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="koshgeo" label="koshgeo">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="DR_MEESEEKS_PHD" label="DR_MEESEEKS_PHD">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="FunkyTown313" label="FunkyTown313">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="MLPPinkiePie" label="MLPPinkiePie">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="Blue-AU" label="Blue-AU">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="StoicLumberJack" label="StoicLumberJack">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="LothartheDestroyer" label="LothartheDestroyer">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="whatllmyusernamebe" label="whatllmyusernamebe">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="Ridonkulousley" label="Ridonkulousley">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="d0nkeyk0ngsuh" label="d0nkeyk0ngsuh">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="Airgiraffe" label="Airgiraffe">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="y-a-me-a" label="y-a-me-a">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="timoumd" label="timoumd">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="LazyVeganHippie" label="LazyVeganHippie">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="ExPatriot0" label="ExPatriot0">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="noseyappendage" label="noseyappendage">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="Mmcgou1" label="Mmcgou1">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="BanjoStory" label="BanjoStory">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="wenchette" label="wenchette">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="TripperDay" label="TripperDay">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="just_another_citizen" label="just_another_citizen">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="softnmushy" label="softnmushy">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="RubyRhod" label="RubyRhod">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="merkon" label="merkon">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="thedrew" label="thedrew">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="number_six" label="number_six">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="kaji823" label="kaji823">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="niktemadur" label="niktemadur">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="wonderful_wonton" label="wonderful_wonton">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="stult" label="stult">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="XBacklash" label="XBacklash">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="CreativeGPX" label="CreativeGPX">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="everred" label="everred">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="ThePu55yDestr0yr" label="ThePu55yDestr0yr">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="AsteroidsOnSteroids" label="AsteroidsOnSteroids">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="belinck" label="belinck">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="300andWhat" label="300andWhat">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="ianandris" label="ianandris">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="Qf3ck3r" label="Qf3ck3r">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="Thodgy" label="Thodgy">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="st_gerasimos" label="st_gerasimos">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="grumpythunder" label="grumpythunder">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="gloomdoom" label="gloomdoom">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="spivnv" label="spivnv">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="shenghar" label="shenghar">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="teh_booth_gawd" label="teh_booth_gawd">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="dirtsunshine" label="dirtsunshine">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="pheonix200" label="pheonix200">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="arizonabob" label="arizonabob">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="VegaThePunisher" label="VegaThePunisher">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="The_OtherDouche" label="The_OtherDouche">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="sansdeity" label="sansdeity">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="Rats_In_Boxes" label="Rats_In_Boxes">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="AllPurposeNerd" label="AllPurposeNerd">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="Jaqqarhan" label="Jaqqarhan">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="seedster5" label="seedster5">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="savvynarwhal" label="savvynarwhal">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="Army_of_blood" label="Army_of_blood">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="StackerPentecost" label="StackerPentecost">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="PressedRat" label="PressedRat">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="chickendance638" label="chickendance638">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="heretolearn79" label="heretolearn79">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="WTFppl" label="WTFppl">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="EdinMiami" label="EdinMiami">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="markseesred" label="markseesred">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="veniceinperil" label="veniceinperil">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="CowardlyDodge" label="CowardlyDodge">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="RudyBagels" label="RudyBagels">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="abbyoyo" label="abbyoyo">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="muuzuumuu" label="muuzuumuu">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="CowboyBoats" label="CowboyBoats">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="AliveByLovesGlory" label="AliveByLovesGlory">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="KD729" label="KD729">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="zcleghern" label="zcleghern">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="jsoc80" label="jsoc80">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="DrBrotato" label="DrBrotato">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="Qvanta" label="Qvanta">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="SnakeEater14" label="SnakeEater14">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="looler" label="looler">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="burlycabin" label="burlycabin">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="lawless68" label="lawless68">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="memophage" label="memophage">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="The_Write_Stuff" label="The_Write_Stuff">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="JoshuaKevinPerry" label="JoshuaKevinPerry">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="NastyPelosi" label="NastyPelosi">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="angermngment" label="angermngment">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="CompactedConscience" label="CompactedConscience">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="ChiliManiac" label="ChiliManiac">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="theinternetismagical" label="theinternetismagical">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="jmurphy42" label="jmurphy42">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="dangzal" label="dangzal">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="goopy-goo" label="goopy-goo">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="monsoony" label="monsoony">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="digital_end" label="digital_end">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="ademnus" label="ademnus">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="Blackcassowary" label="Blackcassowary">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="hammer60" label="hammer60">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="truthseeeker" label="truthseeeker">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="sewsnap" label="sewsnap">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="goatsaredumb" label="goatsaredumb">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="Brysynner" label="Brysynner">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="steamwhy" label="steamwhy">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="tooyoung_tooold" label="tooyoung_tooold">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="anonartist2" label="anonartist2">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="w33dbrownies" label="w33dbrownies">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="peekay427" label="peekay427">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="Trtmfm" label="Trtmfm">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="VSTONE" label="VSTONE">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="JaycobSnow" label="JaycobSnow">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="LyreBirb" label="LyreBirb">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="executivemonkey" label="executivemonkey">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="sparklebuttduh" label="sparklebuttduh">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="Mrgonefor20years" label="Mrgonefor20years">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="GoneWithTheTailwind" label="GoneWithTheTailwind">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="SkunkMonkey" label="SkunkMonkey">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="skpesadilla" label="skpesadilla">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="Zeno84" label="Zeno84">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="DiscoConspiracy" label="DiscoConspiracy">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="raptorbluez" label="raptorbluez">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="sappapp" label="sappapp">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="Z0di" label="Z0di">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="Minifig81" label="Minifig81">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="BumBiddlyBiddlyBum" label="BumBiddlyBiddlyBum">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="makes_scents_to_me" label="makes_scents_to_me">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="Strong__Belwas" label="Strong__Belwas">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="MuddyBorcus" label="MuddyBorcus">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="tlbane" label="tlbane">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="JanetYellensFuckboy" label="JanetYellensFuckboy">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="Oda_nicullah" label="Oda_nicullah">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="unclefisty" label="unclefisty">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="LoudTsu" label="LoudTsu">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="mnoram" label="mnoram">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="zryn3" label="zryn3">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="Loonkey" label="Loonkey">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="darwinn_69" label="darwinn_69">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="ajayisfour" label="ajayisfour">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="kyew" label="kyew">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="CuredPhoenix" label="CuredPhoenix">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="Yage2006" label="Yage2006">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="Oseltaeb" label="Oseltaeb">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="geosensation" label="geosensation">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="bukithd" label="bukithd">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="soccerguy786" label="soccerguy786">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="Wheatspin" label="Wheatspin">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="NewMexicanScorpio" label="NewMexicanScorpio">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="stockedpotatoes" label="stockedpotatoes">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="timot13" label="timot13">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="ChrisNYC70" label="ChrisNYC70">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="Jess_than_three" label="Jess_than_three">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="Mitt_Romney_USA" label="Mitt_Romney_USA">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="If-if-if-if-if-if-if" label="If-if-if-if-if-if-if">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="westsand" label="westsand">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="CharlieDarwin2" label="CharlieDarwin2">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="Azara1th" label="Azara1th">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="FatAngryDrunk" label="FatAngryDrunk">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="Keikobad" label="Keikobad">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="Liberty_Chip_Cookies" label="Liberty_Chip_Cookies">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="OCrikeyItsTheRozzers" label="OCrikeyItsTheRozzers">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="DiviFiliusAugustus" label="DiviFiliusAugustus">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="RulerOfCrabKingdom" label="RulerOfCrabKingdom">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="Gentlegiant17" label="Gentlegiant17">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="Igglecane" label="Igglecane">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="Miamiblue112" label="Miamiblue112">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="KneeguhPuhleeze" label="KneeguhPuhleeze">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="Oh_hamburgers_" label="Oh_hamburgers_">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="theanomaly904" label="theanomaly904">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="Tmotty" label="Tmotty">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="chickeninferno" label="chickeninferno">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="anotherbrainstew" label="anotherbrainstew">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="bagofasses" label="bagofasses">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="Marc_Quill" label="Marc_Quill">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="GOKETOninJa" label="GOKETOninJa">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="powershirt" label="powershirt">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="redrumakm" label="redrumakm">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="everyonelikesupvotes" label="everyonelikesupvotes">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="KillNyetheSilenceGuy" label="KillNyetheSilenceGuy">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="Minds_Desire" label="Minds_Desire">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="TheSugarplumpFairy" label="TheSugarplumpFairy">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="xstatic6901" label="xstatic6901">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="1March2017" label="1March2017">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="TractG" label="TractG">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="eric987235" label="eric987235">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="dra39437" label="dra39437">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="osureu812" label="osureu812">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="ACompetitiveJerk" label="ACompetitiveJerk">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="Dr_Doff" label="Dr_Doff">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="This-Friggin-Guy" label="This-Friggin-Guy">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="idratherbeonvoat" label="idratherbeonvoat">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="Nomandate" label="Nomandate">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="JohnLocksTheKey" label="JohnLocksTheKey">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="magicjj7" label="magicjj7">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="Dixon_Butte" label="Dixon_Butte">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="RockyFlintstone" label="RockyFlintstone">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="PolandPole" label="PolandPole">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="10sc" label="10sc">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="fyrejade" label="fyrejade">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="manofpuck" label="manofpuck">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="Memetic1" label="Memetic1">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+      <node id="jonfla" label="jonfla">
+        <attvalues>
+          <attvalue for="0" value="democrats" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="iloverainingday" target="pheonix200" weight="1" />
+      <edge id="1" source="CaramelKitteh" target="therecordcorrected" weight="1" />
+      <edge id="2" source="sleetx" target="burlycabin" weight="1" />
+      <edge id="3" source="sleetx" target="magicjj7" weight="1" />
+      <edge id="4" source="djoefish" target="wenchette" weight="1" />
+      <edge id="5" source="cookiemonster247" target="Fig1024" weight="1" />
+      <edge id="6" source="cookiemonster247" target="sewsnap" weight="1" />
+      <edge id="7" source="DronedAgain" target="monsoony" weight="1" />
+      <edge id="8" source="DronedAgain" target="Czechmix" weight="3" />
+      <edge id="9" source="DronedAgain" target="Accademiccanada" weight="1" />
+      <edge id="10" source="ThaBatesmotel" target="soccerguy786" weight="1" />
+      <edge id="11" source="An_emperor_penguin" target="wenchette" weight="1" />
+      <edge id="12" source="aspiringluddite" target="SnatchasaurusRex" weight="1" />
+      <edge id="13" source="fukdatnoiz" target="yosemite_lives" weight="1" />
+      <edge id="14" source="fukdatnoiz" target="therecordcorrected" weight="1" />
+      <edge id="15" source="alansb1982" target="CompactedConscience" weight="3" />
+      <edge id="16" source="alansb1982" target="Anticipator1234" weight="1" />
+      <edge id="17" source="thegreattober" target="bagofasses" weight="1" />
+      <edge id="18" source="Raeldcr" target="ademnus" weight="1" />
+      <edge id="19" source="Caspian215" target="300andWhat" weight="1" />
+      <edge id="20" source="sketchy7" target="Mister_Jay_Peg" weight="1" />
+      <edge id="21" source="sketchy7" target="Anticipator1234" weight="1" />
+      <edge id="22" source="paularkay" target="CharlieDarwin2" weight="1" />
+      <edge id="23" source="berryferry" target="CharlieDarwin2" weight="1" />
+      <edge id="24" source="berryferry" target="ademnus" weight="1" />
+      <edge id="25" source="berryferry" target="anotherbrainstew" weight="1" />
+      <edge id="26" source="backpackwayne" target="ianandris" weight="1" />
+      <edge id="27" source="backpackwayne" target="ademnus" weight="2" />
+      <edge id="28" source="backpackwayne" target="EdinMiami" weight="2" />
+      <edge id="29" source="backpackwayne" target="1March2017" weight="2" />
+      <edge id="30" source="backpackwayne" target="makes_scents_to_me" weight="1" />
+      <edge id="31" source="TheCSKlepto" target="wenchette" weight="1" />
+      <edge id="32" source="rAlexanderAcosta" target="number_six" weight="1" />
+      <edge id="33" source="downvote_allmy_posts" target="Anticipator1234" weight="1" />
+      <edge id="34" source="Sevcode" target="powershirt" weight="1" />
+      <edge id="35" source="RemindMeBot" target="flxtr" weight="1" />
+      <edge id="36" source="wookiecontrol" target="therecordcorrected" weight="1" />
+      <edge id="37" source="RobisaII" target="monsoony" weight="1" />
+      <edge id="38" source="SocialBrushStroke" target="truthseeeker" weight="1" />
+      <edge id="39" source="zatch17" target="monsoony" weight="1" />
+      <edge id="40" source="FishStix1" target="SnakeEater14" weight="1" />
+      <edge id="41" source="ThrowayForScience" target="wenchette" weight="1" />
+      <edge id="42" source="i_am_bartman" target="wenchette" weight="1" />
+      <edge id="43" source="musclerunner" target="viagravagina" weight="1" />
+      <edge id="44" source="viagravagina" target="jonfla" weight="1" />
+      <edge id="45" source="viagravagina" target="musclerunner" weight="2" />
+      <edge id="46" source="viagravagina" target="viagravagina" weight="2" />
+      <edge id="47" source="Creativation" target="therecordcorrected" weight="1" />
+      <edge id="48" source="Czechmix" target="DronedAgain" weight="3" />
+      <edge id="49" source="REXXT" target="ACompetitiveJerk" weight="1" />
+      <edge id="50" source="Testacules" target="wenchette" weight="1" />
+      <edge id="51" source="Dingus_McDoodle_Esq" target="wenchette" weight="1" />
+      <edge id="52" source="dammit_krieger" target="therecordcorrected" weight="1" />
+      <edge id="53" source="Omega_Minus" target="PolandPole" weight="1" />
+      <edge id="54" source="eternal_septuagint" target="monsoony" weight="1" />
+      <edge id="55" source="Rootsinsky" target="wenchette" weight="1" />
+      <edge id="56" source="Catalyst8487" target="_LLAMA_KING" weight="2" />
+      <edge id="57" source="activatedalmondz" target="pheonix200" weight="1" />
+      <edge id="58" source="Kanye2020a" target="wenchette" weight="1" />
+      <edge id="59" source="IntroSpeccy" target="therecordcorrected" weight="1" />
+      <edge id="60" source="Flederman64" target="Raeldcr" weight="1" />
+      <edge id="61" source="RamboGoesMeow" target="_LLAMA_KING" weight="5" />
+      <edge id="62" source="RamboGoesMeow" target="ajayisfour" weight="3" />
+      <edge id="63" source="SnatchasaurusRex" target="wenchette" weight="1" />
+      <edge id="64" source="anotherblue" target="SlayerOfArgus" weight="1" />
+      <edge id="65" source="anotherblue" target="NewMexicanScorpio" weight="1" />
+      <edge id="66" source="woodyww" target="monsoony" weight="1" />
+      <edge id="67" source="woodyww" target="Z0di" weight="2" />
+      <edge id="68" source="bandwag0n" target="therecordcorrected" weight="1" />
+      <edge id="69" source="bandwag0n" target="SnakeEater14" weight="1" />
+      <edge id="70" source="yesno242" target="therecordcorrected" weight="1" />
+      <edge id="71" source="GreenBean81" target="wenchette" weight="1" />
+      <edge id="72" source="_LLAMA_KING" target="Catalyst8487" weight="1" />
+      <edge id="73" source="_LLAMA_KING" target="RubyRhod" weight="1" />
+      <edge id="74" source="_LLAMA_KING" target="chickeninferno" weight="1" />
+      <edge id="75" source="_LLAMA_KING" target="RamboGoesMeow" weight="4" />
+      <edge id="76" source="Searchlights" target="10sc" weight="1" />
+      <edge id="77" source="Peculiar_One" target="PolandPole" weight="1" />
+      <edge id="78" source="yosemite_lives" target="wenchette" weight="1" />
+      <edge id="79" source="CleanBaldy" target="therecordcorrected" weight="1" />
+      <edge id="80" source="rhose32" target="therecordcorrected" weight="1" />
+      <edge id="81" source="rhose32" target="monsoony" weight="1" />
+      <edge id="82" source="Hook3d" target="TractG" weight="1" />
+      <edge id="83" source="Fig1024" target="therecordcorrected" weight="1" />
+      <edge id="84" source="Fig1024" target="AsteroidsOnSteroids" weight="1" />
+      <edge id="85" source="Augustus_Caesar1" target="kyew" weight="5" />
+      <edge id="86" source="Augustus_Caesar1" target="theanomaly904" weight="1" />
+      <edge id="87" source="TyphoonOne" target="burlycabin" weight="1" />
+      <edge id="88" source="LGMenu" target="therecordcorrected" weight="1" />
+      <edge id="89" source="LGMenu" target="gloomdoom" weight="1" />
+      <edge id="90" source="LGMenu" target="CowardlyDodge" weight="1" />
+      <edge id="91" source="cleopad1" target="LazyVeganHippie" weight="1" />
+      <edge id="92" source="cleopad1" target="everred" weight="1" />
+      <edge id="93" source="I_AM_A_SPORK" target="wenchette" weight="1" />
+      <edge id="94" source="ImperatorBevo" target="cookiemonster247" weight="1" />
+      <edge id="95" source="icallshenannigans" target="rhose32" weight="1" />
+      <edge id="96" source="ldkronos" target="anotherblue" weight="1" />
+      <edge id="97" source="Irish_Fry" target="gloomdoom" weight="1" />
+      <edge id="98" source="ayoungjacknicholson" target="wenchette" weight="1" />
+      <edge id="99" source="flxtr" target="Oda_nicullah" weight="1" />
+      <edge id="100" source="flxtr" target="steamwhy" weight="1" />
+      <edge id="101" source="Millwalky" target="DiscoConspiracy" weight="1" />
+      <edge id="102" source="sam_the_butcher_95" target="wenchette" weight="1" />
+      <edge id="103" source="KennyFulgencio" target="10sc" weight="1" />
+      <edge id="104" source="m-flo" target="raptorbluez" weight="2" />
+      <edge id="105" source="m-flo" target="whatllmyusernamebe" weight="1" />
+      <edge id="106" source="Old_Army90" target="Loonkey" weight="1" />
+      <edge id="107" source="JeanValjean197o" target="wenchette" weight="1" />
+      <edge id="108" source="JeanValjean197o" target="Memetic1" weight="2" />
+      <edge id="109" source="JeanValjean197o" target="LothartheDestroyer" weight="1" />
+      <edge id="110" source="JeanValjean197o" target="executivemonkey" weight="1" />
+      <edge id="111" source="RellenD" target="Minds_Desire" weight="1" />
+      <edge id="112" source="RellenD" target="Army_of_blood" weight="1" />
+      <edge id="113" source="RellenD" target="If-if-if-if-if-if-if" weight="1" />
+      <edge id="114" source="RellenD" target="raptorbluez" weight="2" />
+      <edge id="115" source="therecordcorrected" target="wenchette" weight="1" />
+      <edge id="116" source="therecordcorrected" target="MuddyBorcus" weight="1" />
+      <edge id="117" source="Exycc" target="dangzal" weight="1" />
+      <edge id="118" source="MisterDarcyType" target="therecordcorrected" weight="1" />
+      <edge id="119" source="GoinFerARipEh" target="wenchette" weight="1" />
+      <edge id="120" source="GoinFerARipEh" target="flxtr" weight="1" />
+      <edge id="121" source="KrazyKukumber" target="d0nkeyk0ngsuh" weight="2" />
+      <edge id="122" source="ThaddeusJP" target="osureu812" weight="1" />
+      <edge id="123" source="Mister_Jay_Peg" target="Anticipator1234" weight="1" />
+      <edge id="124" source="Militree" target="tlbane" weight="1" />
+      <edge id="125" source="Militree" target="redrumakm" weight="1" />
+      <edge id="126" source="p-zilla" target="i_am_bartman" weight="1" />
+      <edge id="127" source="BourneAwayByWaves" target="REXXT" weight="1" />
+      <edge id="128" source="BourneAwayByWaves" target="CharlieDarwin2" weight="1" />
+      <edge id="129" source="BourneAwayByWaves" target="magicjj7" weight="1" />
+      <edge id="130" source="BourneAwayByWaves" target="JaycobSnow" weight="1" />
+      <edge id="131" source="Accademiccanada" target="DronedAgain" weight="2" />
+      <edge id="132" source="the1andonlyreal1" target="CharlieDarwin2" weight="1" />
+      <edge id="133" source="RTwhyNot" target="monsoony" weight="1" />
+      <edge id="134" source="corin247" target="wenchette" weight="1" />
+      <edge id="135" source="Anticipator1234" target="hammer60" weight="1" />
+      <edge id="136" source="Anticipator1234" target="Airgiraffe" weight="1" />
+      <edge id="137" source="Anticipator1234" target="softnmushy" weight="2" />
+      <edge id="138" source="Anticipator1234" target="Keikobad" weight="1" />
+      <edge id="139" source="Anticipator1234" target="veniceinperil" weight="1" />
+      <edge id="140" source="Anticipator1234" target="truthseeeker" weight="1" />
+      <edge id="141" source="Anticipator1234" target="BumBiddlyBiddlyBum" weight="1" />
+      <edge id="142" source="geodebug" target="d0nkeyk0ngsuh" weight="1" />
+      <edge id="143" source="geodebug" target="FatAngryDrunk" weight="1" />
+      <edge id="144" source="BURNTHROUGHACCOUNTS" target="monsoony" weight="1" />
+      <edge id="145" source="ramonycajones" target="Gentlegiant17" weight="1" />
+      <edge id="146" source="SlayerOfArgus" target="theinternetismagical" weight="1" />
+      <edge id="147" source="SlayerOfArgus" target="anotherblue" weight="1" />
+      <edge id="148" source="koshgeo" target="_LLAMA_KING" weight="1" />
+      <edge id="149" source="DR_MEESEEKS_PHD" target="manofpuck" weight="1" />
+      <edge id="150" source="FunkyTown313" target="therecordcorrected" weight="2" />
+      <edge id="151" source="MLPPinkiePie" target="CharlieDarwin2" weight="1" />
+      <edge id="152" source="Blue-AU" target="CharlieDarwin2" weight="1" />
+      <edge id="153" source="StoicLumberJack" target="m-flo" weight="1" />
+      <edge id="154" source="LothartheDestroyer" target="VegaThePunisher" weight="1" />
+      <edge id="155" source="LothartheDestroyer" target="m-flo" weight="1" />
+      <edge id="156" source="LothartheDestroyer" target="JeanValjean197o" weight="1" />
+      <edge id="157" source="whatllmyusernamebe" target="m-flo" weight="1" />
+      <edge id="158" source="Ridonkulousley" target="digital_end" weight="1" />
+      <edge id="159" source="d0nkeyk0ngsuh" target="wenchette" weight="1" />
+      <edge id="160" source="d0nkeyk0ngsuh" target="VegaThePunisher" weight="1" />
+      <edge id="161" source="d0nkeyk0ngsuh" target="KrazyKukumber" weight="1" />
+      <edge id="162" source="Airgiraffe" target="Anticipator1234" weight="1" />
+      <edge id="163" source="y-a-me-a" target="downvote_allmy_posts" weight="1" />
+      <edge id="164" source="timoumd" target="Mrgonefor20years" weight="1" />
+      <edge id="165" source="LazyVeganHippie" target="Oda_nicullah" weight="1" />
+      <edge id="166" source="ExPatriot0" target="VegaThePunisher" weight="1" />
+      <edge id="167" source="noseyappendage" target="osureu812" weight="1" />
+      <edge id="168" source="Mmcgou1" target="Zeno84" weight="1" />
+      <edge id="169" source="Mmcgou1" target="VegaThePunisher" weight="2" />
+      <edge id="170" source="Mmcgou1" target="dangzal" weight="1" />
+      <edge id="171" source="Mmcgou1" target="ACompetitiveJerk" weight="1" />
+      <edge id="172" source="BanjoStory" target="burlycabin" weight="1" />
+      <edge id="173" source="wenchette" target="wenchette" weight="1" />
+      <edge id="174" source="TripperDay" target="therecordcorrected" weight="1" />
+      <edge id="175" source="TripperDay" target="eric987235" weight="1" />
+      <edge id="176" source="just_another_citizen" target="alansb1982" weight="1" />
+      <edge id="177" source="softnmushy" target="Anticipator1234" weight="2" />
+      <edge id="178" source="RubyRhod" target="_LLAMA_KING" weight="2" />
+      <edge id="179" source="RubyRhod" target="chickeninferno" weight="1" />
+      <edge id="180" source="merkon" target="wenchette" weight="1" />
+      <edge id="181" source="thedrew" target="JeanValjean197o" weight="1" />
+      <edge id="182" source="number_six" target="wenchette" weight="1" />
+      <edge id="183" source="kaji823" target="TripperDay" weight="1" />
+      <edge id="184" source="niktemadur" target="WTFppl" weight="1" />
+      <edge id="185" source="wonderful_wonton" target="therecordcorrected" weight="1" />
+      <edge id="186" source="wonderful_wonton" target="LGMenu" weight="1" />
+      <edge id="187" source="stult" target="softnmushy" weight="1" />
+      <edge id="188" source="XBacklash" target="therecordcorrected" weight="1" />
+      <edge id="189" source="CreativeGPX" target="dangzal" weight="1" />
+      <edge id="190" source="CreativeGPX" target="burlycabin" weight="1" />
+      <edge id="191" source="CreativeGPX" target="chickendance638" weight="1" />
+      <edge id="192" source="everred" target="BumBiddlyBiddlyBum" weight="1" />
+      <edge id="193" source="ThePu55yDestr0yr" target="magicjj7" weight="1" />
+      <edge id="194" source="AsteroidsOnSteroids" target="Fig1024" weight="1" />
+      <edge id="195" source="belinck" target="wenchette" weight="1" />
+      <edge id="196" source="300andWhat" target="jsoc80" weight="1" />
+      <edge id="197" source="ianandris" target="backpackwayne" weight="1" />
+      <edge id="198" source="Qf3ck3r" target="peekay427" weight="1" />
+      <edge id="199" source="Thodgy" target="JeanValjean197o" weight="1" />
+      <edge id="200" source="st_gerasimos" target="monsoony" weight="1" />
+      <edge id="201" source="grumpythunder" target="theinternetismagical" weight="1" />
+      <edge id="202" source="gloomdoom" target="LGMenu" weight="1" />
+      <edge id="203" source="spivnv" target="Kanye2020a" weight="1" />
+      <edge id="204" source="shenghar" target="theinternetismagical" weight="1" />
+      <edge id="205" source="teh_booth_gawd" target="wenchette" weight="1" />
+      <edge id="206" source="dirtsunshine" target="WTFppl" weight="1" />
+      <edge id="207" source="arizonabob" target="wenchette" weight="2" />
+      <edge id="208" source="VegaThePunisher" target="d0nkeyk0ngsuh" weight="2" />
+      <edge id="209" source="VegaThePunisher" target="m-flo" weight="1" />
+      <edge id="210" source="VegaThePunisher" target="RobisaII" weight="1" />
+      <edge id="211" source="VegaThePunisher" target="ExPatriot0" weight="1" />
+      <edge id="212" source="VegaThePunisher" target="sansdeity" weight="3" />
+      <edge id="213" source="VegaThePunisher" target="Mmcgou1" weight="3" />
+      <edge id="214" source="VegaThePunisher" target="TractG" weight="3" />
+      <edge id="215" source="VegaThePunisher" target="Oh_hamburgers_" weight="1" />
+      <edge id="216" source="The_OtherDouche" target="theanomaly904" weight="1" />
+      <edge id="217" source="sansdeity" target="VegaThePunisher" weight="3" />
+      <edge id="218" source="sansdeity" target="monsoony" weight="1" />
+      <edge id="219" source="Rats_In_Boxes" target="ThaddeusJP" weight="1" />
+      <edge id="220" source="AllPurposeNerd" target="wenchette" weight="1" />
+      <edge id="221" source="Jaqqarhan" target="Kanye2020a" weight="1" />
+      <edge id="222" source="seedster5" target="wenchette" weight="1" />
+      <edge id="223" source="savvynarwhal" target="wenchette" weight="1" />
+      <edge id="224" source="savvynarwhal" target="GoinFerARipEh" weight="1" />
+      <edge id="225" source="Army_of_blood" target="pheonix200" weight="1" />
+      <edge id="226" source="StackerPentecost" target="flxtr" weight="1" />
+      <edge id="227" source="PressedRat" target="Oda_nicullah" weight="1" />
+      <edge id="228" source="chickendance638" target="CreativeGPX" weight="1" />
+      <edge id="229" source="heretolearn79" target="pheonix200" weight="1" />
+      <edge id="230" source="WTFppl" target="dirtsunshine" weight="1" />
+      <edge id="231" source="WTFppl" target="Strong__Belwas" weight="1" />
+      <edge id="232" source="WTFppl" target="ademnus" weight="1" />
+      <edge id="233" source="WTFppl" target="raptorbluez" weight="1" />
+      <edge id="234" source="EdinMiami" target="backpackwayne" weight="2" />
+      <edge id="235" source="markseesred" target="NewMexicanScorpio" weight="1" />
+      <edge id="236" source="veniceinperil" target="Anticipator1234" weight="2" />
+      <edge id="237" source="CowardlyDodge" target="flxtr" weight="1" />
+      <edge id="238" source="CowardlyDodge" target="LGMenu" weight="1" />
+      <edge id="239" source="RudyBagels" target="Oda_nicullah" weight="2" />
+      <edge id="240" source="abbyoyo" target="Ridonkulousley" weight="1" />
+      <edge id="241" source="muuzuumuu" target="ademnus" weight="1" />
+      <edge id="242" source="CowboyBoats" target="therecordcorrected" weight="1" />
+      <edge id="243" source="AliveByLovesGlory" target="sewsnap" weight="1" />
+      <edge id="244" source="KD729" target="CharlieDarwin2" weight="1" />
+      <edge id="245" source="zcleghern" target="JohnLocksTheKey" weight="1" />
+      <edge id="246" source="zcleghern" target="burlycabin" weight="1" />
+      <edge id="247" source="zcleghern" target="DiscoConspiracy" weight="1" />
+      <edge id="248" source="zcleghern" target="Mmcgou1" weight="1" />
+      <edge id="249" source="jsoc80" target="wenchette" weight="1" />
+      <edge id="250" source="DrBrotato" target="therecordcorrected" weight="1" />
+      <edge id="251" source="Qvanta" target="cookiemonster247" weight="1" />
+      <edge id="252" source="SnakeEater14" target="CharlieDarwin2" weight="1" />
+      <edge id="253" source="SnakeEater14" target="westsand" weight="1" />
+      <edge id="254" source="SnakeEater14" target="stockedpotatoes" weight="2" />
+      <edge id="255" source="looler" target="CharlieDarwin2" weight="1" />
+      <edge id="256" source="burlycabin" target="sleetx" weight="1" />
+      <edge id="257" source="burlycabin" target="CreativeGPX" weight="1" />
+      <edge id="258" source="lawless68" target="manofpuck" weight="1" />
+      <edge id="259" source="memophage" target="Mitt_Romney_USA" weight="1" />
+      <edge id="260" source="The_Write_Stuff" target="CharlieDarwin2" weight="1" />
+      <edge id="261" source="JoshuaKevinPerry" target="I_AM_A_SPORK" weight="1" />
+      <edge id="262" source="JoshuaKevinPerry" target="Raeldcr" weight="1" />
+      <edge id="263" source="NastyPelosi" target="therecordcorrected" weight="1" />
+      <edge id="264" source="angermngment" target="theinternetismagical" weight="1" />
+      <edge id="265" source="angermngment" target="Fig1024" weight="1" />
+      <edge id="266" source="CompactedConscience" target="alansb1982" weight="4" />
+      <edge id="267" source="ChiliManiac" target="ademnus" weight="4" />
+      <edge id="268" source="ChiliManiac" target="Blackcassowary" weight="1" />
+      <edge id="269" source="theinternetismagical" target="wenchette" weight="1" />
+      <edge id="270" source="theinternetismagical" target="seedster5" weight="1" />
+      <edge id="271" source="theinternetismagical" target="KillNyetheSilenceGuy" weight="1" />
+      <edge id="272" source="jmurphy42" target="looler" weight="1" />
+      <edge id="273" source="jmurphy42" target="SnakeEater14" weight="1" />
+      <edge id="274" source="goopy-goo" target="Blackcassowary" weight="1" />
+      <edge id="275" source="digital_end" target="wenchette" weight="1" />
+      <edge id="276" source="ademnus" target="backpackwayne" weight="1" />
+      <edge id="277" source="ademnus" target="anotherbrainstew" weight="2" />
+      <edge id="278" source="ademnus" target="pheonix200" weight="1" />
+      <edge id="279" source="ademnus" target="The_Write_Stuff" weight="1" />
+      <edge id="280" source="ademnus" target="Blackcassowary" weight="1" />
+      <edge id="281" source="ademnus" target="savvynarwhal" weight="1" />
+      <edge id="282" source="ademnus" target="TractG" weight="5" />
+      <edge id="283" source="ademnus" target="ChiliManiac" weight="4" />
+      <edge id="284" source="ademnus" target="WTFppl" weight="2" />
+      <edge id="285" source="Blackcassowary" target="dangzal" weight="1" />
+      <edge id="286" source="hammer60" target="Anticipator1234" weight="2" />
+      <edge id="287" source="truthseeeker" target="Anticipator1234" weight="1" />
+      <edge id="288" source="sewsnap" target="therecordcorrected" weight="1" />
+      <edge id="289" source="goatsaredumb" target="pheonix200" weight="1" />
+      <edge id="290" source="Brysynner" target="CharlieDarwin2" weight="1" />
+      <edge id="291" source="Brysynner" target="SnakeEater14" weight="1" />
+      <edge id="292" source="steamwhy" target="If-if-if-if-if-if-if" weight="1" />
+      <edge id="293" source="tooyoung_tooold" target="CharlieDarwin2" weight="1" />
+      <edge id="294" source="anonartist2" target="AllPurposeNerd" weight="1" />
+      <edge id="295" source="w33dbrownies" target="dangzal" weight="1" />
+      <edge id="296" source="peekay427" target="therecordcorrected" weight="1" />
+      <edge id="297" source="peekay427" target="Qf3ck3r" weight="1" />
+      <edge id="298" source="Trtmfm" target="therecordcorrected" weight="1" />
+      <edge id="299" source="VSTONE" target="ademnus" weight="1" />
+      <edge id="300" source="JaycobSnow" target="BourneAwayByWaves" weight="1" />
+      <edge id="301" source="JaycobSnow" target="Blackcassowary" weight="1" />
+      <edge id="302" source="LyreBirb" target="Minds_Desire" weight="1" />
+      <edge id="303" source="executivemonkey" target="seedster5" weight="1" />
+      <edge id="304" source="executivemonkey" target="JeanValjean197o" weight="2" />
+      <edge id="305" source="sparklebuttduh" target="viagravagina" weight="1" />
+      <edge id="306" source="Mrgonefor20years" target="therecordcorrected" weight="1" />
+      <edge id="307" source="GoneWithTheTailwind" target="i_am_bartman" weight="1" />
+      <edge id="308" source="SkunkMonkey" target="therecordcorrected" weight="1" />
+      <edge id="309" source="skpesadilla" target="wenchette" weight="1" />
+      <edge id="310" source="Zeno84" target="Mmcgou1" weight="1" />
+      <edge id="311" source="DiscoConspiracy" target="dangzal" weight="1" />
+      <edge id="312" source="raptorbluez" target="MLPPinkiePie" weight="1" />
+      <edge id="313" source="raptorbluez" target="WTFppl" weight="2" />
+      <edge id="314" source="raptorbluez" target="m-flo" weight="1" />
+      <edge id="315" source="raptorbluez" target="RellenD" weight="1" />
+      <edge id="316" source="sappapp" target="monsoony" weight="1" />
+      <edge id="317" source="Z0di" target="woodyww" weight="3" />
+      <edge id="318" source="Z0di" target="The_OtherDouche" weight="1" />
+      <edge id="319" source="Minifig81" target="wenchette" weight="1" />
+      <edge id="320" source="BumBiddlyBiddlyBum" target="wenchette" weight="1" />
+      <edge id="321" source="BumBiddlyBiddlyBum" target="Anticipator1234" weight="1" />
+      <edge id="322" source="makes_scents_to_me" target="TripperDay" weight="1" />
+      <edge id="323" source="Strong__Belwas" target="wenchette" weight="1" />
+      <edge id="324" source="Strong__Belwas" target="m-flo" weight="1" />
+      <edge id="325" source="MuddyBorcus" target="therecordcorrected" weight="1" />
+      <edge id="326" source="MuddyBorcus" target="seedster5" weight="1" />
+      <edge id="327" source="MuddyBorcus" target="KillNyetheSilenceGuy" weight="1" />
+      <edge id="328" source="tlbane" target="osureu812" weight="1" />
+      <edge id="329" source="JanetYellensFuckboy" target="jonfla" weight="1" />
+      <edge id="330" source="Oda_nicullah" target="RudyBagels" weight="1" />
+      <edge id="331" source="Oda_nicullah" target="savvynarwhal" weight="1" />
+      <edge id="332" source="unclefisty" target="Fig1024" weight="1" />
+      <edge id="333" source="LoudTsu" target="SnakeEater14" weight="1" />
+      <edge id="334" source="mnoram" target="JeanValjean197o" weight="1" />
+      <edge id="335" source="zryn3" target="seedster5" weight="1" />
+      <edge id="336" source="Loonkey" target="cookiemonster247" weight="1" />
+      <edge id="337" source="Loonkey" target="Old_Army90" weight="1" />
+      <edge id="338" source="darwinn_69" target="chickeninferno" weight="1" />
+      <edge id="339" source="ajayisfour" target="RamboGoesMeow" weight="3" />
+      <edge id="340" source="kyew" target="Augustus_Caesar1" weight="5" />
+      <edge id="341" source="kyew" target="viagravagina" weight="1" />
+      <edge id="342" source="kyew" target="Accademiccanada" weight="1" />
+      <edge id="343" source="CuredPhoenix" target="ademnus" weight="1" />
+      <edge id="344" source="Yage2006" target="wenchette" weight="1" />
+      <edge id="345" source="Oseltaeb" target="stockedpotatoes" weight="1" />
+      <edge id="346" source="geosensation" target="cookiemonster247" weight="1" />
+      <edge id="347" source="geosensation" target="fyrejade" weight="1" />
+      <edge id="348" source="bukithd" target="wenchette" weight="1" />
+      <edge id="349" source="soccerguy786" target="wenchette" weight="1" />
+      <edge id="350" source="Wheatspin" target="Catalyst8487" weight="1" />
+      <edge id="351" source="NewMexicanScorpio" target="savvynarwhal" weight="1" />
+      <edge id="352" source="stockedpotatoes" target="10sc" weight="1" />
+      <edge id="353" source="stockedpotatoes" target="SnakeEater14" weight="1" />
+      <edge id="354" source="stockedpotatoes" target="DrBrotato" weight="1" />
+      <edge id="355" source="stockedpotatoes" target="Oseltaeb" weight="1" />
+      <edge id="356" source="timot13" target="monsoony" weight="1" />
+      <edge id="357" source="ChrisNYC70" target="stockedpotatoes" weight="1" />
+      <edge id="358" source="Jess_than_three" target="therecordcorrected" weight="1" />
+      <edge id="359" source="Mitt_Romney_USA" target="Liberty_Chip_Cookies" weight="1" />
+      <edge id="360" source="If-if-if-if-if-if-if" target="flxtr" weight="1" />
+      <edge id="361" source="westsand" target="therecordcorrected" weight="1" />
+      <edge id="362" source="Azara1th" target="idratherbeonvoat" weight="1" />
+      <edge id="363" source="FatAngryDrunk" target="geodebug" weight="2" />
+      <edge id="364" source="Keikobad" target="Anticipator1234" weight="1" />
+      <edge id="365" source="Liberty_Chip_Cookies" target="therecordcorrected" weight="1" />
+      <edge id="366" source="OCrikeyItsTheRozzers" target="wenchette" weight="1" />
+      <edge id="367" source="DiviFiliusAugustus" target="wenchette" weight="1" />
+      <edge id="368" source="RulerOfCrabKingdom" target="WTFppl" weight="1" />
+      <edge id="369" source="RulerOfCrabKingdom" target="savvynarwhal" weight="1" />
+      <edge id="370" source="Gentlegiant17" target="therecordcorrected" weight="1" />
+      <edge id="371" source="Igglecane" target="jonfla" weight="1" />
+      <edge id="372" source="Miamiblue112" target="d0nkeyk0ngsuh" weight="1" />
+      <edge id="373" source="KneeguhPuhleeze" target="ademnus" weight="1" />
+      <edge id="374" source="Oh_hamburgers_" target="monsoony" weight="1" />
+      <edge id="375" source="theanomaly904" target="monsoony" weight="1" />
+      <edge id="376" source="Tmotty" target="wenchette" weight="1" />
+      <edge id="377" source="chickeninferno" target="CharlieDarwin2" weight="1" />
+      <edge id="378" source="anotherbrainstew" target="ademnus" weight="2" />
+      <edge id="379" source="bagofasses" target="StackerPentecost" weight="1" />
+      <edge id="380" source="bagofasses" target="LazyVeganHippie" weight="1" />
+      <edge id="381" source="Marc_Quill" target="wenchette" weight="1" />
+      <edge id="382" source="Marc_Quill" target="MLPPinkiePie" weight="1" />
+      <edge id="383" source="GOKETOninJa" target="wenchette" weight="1" />
+      <edge id="384" source="powershirt" target="wenchette" weight="1" />
+      <edge id="385" source="redrumakm" target="Militree" weight="1" />
+      <edge id="386" source="everyonelikesupvotes" target="therecordcorrected" weight="1" />
+      <edge id="387" source="KillNyetheSilenceGuy" target="theinternetismagical" weight="1" />
+      <edge id="388" source="Minds_Desire" target="RockyFlintstone" weight="3" />
+      <edge id="389" source="TheSugarplumpFairy" target="AliveByLovesGlory" weight="1" />
+      <edge id="390" source="xstatic6901" target="wenchette" weight="1" />
+      <edge id="391" source="1March2017" target="backpackwayne" weight="3" />
+      <edge id="392" source="TractG" target="wenchette" weight="1" />
+      <edge id="393" source="TractG" target="VegaThePunisher" weight="1" />
+      <edge id="394" source="TractG" target="Hook3d" weight="1" />
+      <edge id="395" source="TractG" target="ademnus" weight="4" />
+      <edge id="396" source="eric987235" target="TripperDay" weight="1" />
+      <edge id="397" source="dra39437" target="KennyFulgencio" weight="1" />
+      <edge id="398" source="osureu812" target="Anticipator1234" weight="1" />
+      <edge id="399" source="ACompetitiveJerk" target="Mmcgou1" weight="1" />
+      <edge id="400" source="ACompetitiveJerk" target="Blackcassowary" weight="1" />
+      <edge id="401" source="Dr_Doff" target="wenchette" weight="1" />
+      <edge id="402" source="This-Friggin-Guy" target="CharlieDarwin2" weight="1" />
+      <edge id="403" source="idratherbeonvoat" target="therecordcorrected" weight="1" />
+      <edge id="404" source="Nomandate" target="therecordcorrected" weight="1" />
+      <edge id="405" source="JohnLocksTheKey" target="ACompetitiveJerk" weight="1" />
+      <edge id="406" source="magicjj7" target="KennyFulgencio" weight="1" />
+      <edge id="407" source="magicjj7" target="Blackcassowary" weight="1" />
+      <edge id="408" source="Dixon_Butte" target="therecordcorrected" weight="1" />
+      <edge id="409" source="RockyFlintstone" target="Minds_Desire" weight="3" />
+      <edge id="410" source="RockyFlintstone" target="jonfla" weight="1" />
+      <edge id="411" source="RockyFlintstone" target="monsoony" weight="1" />
+      <edge id="412" source="PolandPole" target="therecordcorrected" weight="1" />
+      <edge id="413" source="10sc" target="stockedpotatoes" weight="2" />
+      <edge id="414" source="fyrejade" target="memophage" weight="1" />
+      <edge id="415" source="manofpuck" target="d0nkeyk0ngsuh" weight="1" />
+      <edge id="416" source="Memetic1" target="theinternetismagical" weight="1" />
+      <edge id="417" source="Memetic1" target="JeanValjean197o" weight="2" />
+    </edges>
+  </graph>
+</gexf>
