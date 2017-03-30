@@ -1,0 +1,7 @@
+decorator
+matplotlib
+networkx
+pandas
+praw
+scipy
+sklearn
