@@ -64,26 +64,30 @@ def boot_loop():
                 for submission in subreddit.hot(limit=25):
                     print('post(s) found')
                     #check to see if the bot hasn't already replied
-                    try: #TODO:  submission.id not in posts:
-                        t = time.time()
-                        print('replying in thread ' + submission.shortlink)
+                    posts = get_threads_replied_to(bot)
+                    if submission.id not in posts:
+                        try: #TODO:
+                            t = time.time()
+                            print('replying in thread ' + submission.shortlink)
 
-                        #if submission contains what we want, reply.
-                        comment = subprocess.check_output(['python3', '/home/bloviator/lm/language_model.py', sub])
-                        comment = comment.replace('\n', ' ')
+                            #if submission contains what we want, reply.
+                            comment = subprocess.check_output(['python3', '/home/bloviator/lm/language_model.py', sub])
+                            comment = comment.replace('\n', ' ')
 
-                        submission.comment_sort = 'hot'
-                        submission.comments[0].reply(comment)
-                        logger.info('r/' + sub + ':\"' + comment + '\"\n')
+                            submission.comment_sort = 'hot'
+                            submission.comments[0].reply(comment)
+                            logger.info('r/' + sub + ':\"' + comment + '\"\n')
 
-                        threads = open(bot_type + '_' + post_list_file, 'a+')
-                        botlog = open(bot_type + '_comments', 'a+')
-                        threads.write(submission.id)
-                        botlog.write(submission.id + ': ' + comment)
-                        logger.info("SUBMISSION ID: " + submission.id)
-                    except:
-                        print "post error, skipping..."
-                    break
+                            threads = open(bot_type + '_' + post_list_file, 'a+')
+                            botlog = open(bot_type + '_comments', 'a+')
+                            threads.write(submission.id)
+                            botlog.write(submission.id + ': ' + comment)
+                            logger.info("SUBMISSION ID: " + submission.id)
+                        except:
+                            print "post error, skipping..."
+                        break
+                    else:
+                        print("already posted here, skipping...")
 
                 sleepytime = 60*10 - (time.time() - t)
                 print('sleeping for {0}').format(sleepytime)
