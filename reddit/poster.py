@@ -64,13 +64,13 @@ def boot_loop():
                 for submission in subreddit.hot(limit=25):
                     print('post(s) found')
                     #check to see if the bot hasn't already replied
-                    try: #time.time() - t > 60*10: #TODO: figure out appropriate conditions to NOT post submission.id not in posts:
+                    try: #TODO:  submission.id not in posts:
                         t = time.time()
                         print('replying in thread ' + submission.shortlink)
 
                         #if submission contains what we want, reply.
                         comment = subprocess.check_output(['python3', '/home/bloviator/lm/language_model.py', sub])
-                        comment.replace('\n', ' ')
+                        comment = comment.replace('\n', ' ')
 
                         submission.comment_sort = 'hot'
                         submission.comments[0].reply(comment)
